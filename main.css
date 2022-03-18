@@ -60,6 +60,8 @@ div > a{
 main > img{
  width: 50%;
  float: right;
+ object-fit: contain;
+ object-position: center;
  
  
 
