@@ -1,0 +1,78 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body > header,
+body > main {
+    width: 1000px; 
+    margin-left: calc(50% - 500px);
+    margin-top: 10px;
+}
+header > a{
+    float:right;
+}
+body > main{
+    margin-top: 50px;
+}
+
+main > div{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 35%;
+    display: inline-block;
+  
+
+}
+div > h1{
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-align: left;
+
+}
+
+div > p{
+    margin-bottom: 30px;
+    font-weight: normal;
+    color: grey;
+    text-align: left;
+}
+
+div > a{
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgba(223, 84, 107, 0.808);
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+   
+}
+
+
+main > img{
+ width: 50%;
+ float: right;
+ 
+ 
+
+}
+
+main > nav{
+    margin-top: 60px;
+    margin-left: 90px;
+}
+nav > a{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+nav > a:hover{
+    border: 2px solid rgba(223, 84, 107, 0.808);}
